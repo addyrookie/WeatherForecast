@@ -11,7 +11,7 @@ class WeatherForecast extends React.Component {
 	}
 
 	componentDidMount() {
-		fetch('http://api.openweathermap.org/data/2.5/forecast?id=1275339&APPID=1f703b39afd8359290cc27e826b45021')
+		fetch('https://api.openweathermap.org/data/2.5/forecast?id=1275339&APPID=1f703b39afd8359290cc27e826b45021')
 		.then(res => res.json())
 		.then(data => this.setState({ weatherData: data }))
 	}
