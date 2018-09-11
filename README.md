@@ -1,6 +1,5 @@
 > # 5 Day Weather Forecast:
->
-> ### 5 Day Weather Forecast from 'OpenWeatherMap'
+
 
 Display weather related data captured every three hours in a tabular manner:
 
