@@ -14,7 +14,7 @@ Display weather related data captured every three hours in a tabular manner:
 
 ## Installation
 
-1.  Clone this repo: https://github.com/addyrookie/react-get-started.git
+1.  Clone this repo: https://github.com/addyrookie/WeatherForecast.git
 2.  Move to project folder
 3.  Run 'npm install' or 'yarn install' to download all dependencies
 4.  Run 'npm start' / 'yarn start'
@@ -32,7 +32,7 @@ npm test
 Dev-dependencies 1. lodash
 2. enzyme
 3. enzyme-adapter-react-16
-   
+
 
 Regular Dependency: 1. react   2. react-dom  
 
