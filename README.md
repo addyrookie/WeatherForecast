@@ -29,7 +29,10 @@ npm test
 
 ## Dependencies
 
-Dev-dependencies 1. lodash   2. enzyme   3. enzyme-adapter-react-16   
+Dev-dependencies 1. lodash
+2. enzyme
+3. enzyme-adapter-react-16
+   
 
 Regular Dependency: 1. react   2. react-dom  
 
