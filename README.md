@@ -11,8 +11,6 @@ Display weather related data captured every three hours in a tabular manner:
 *   Forecast
 *   Windspeed
 
-This demystifies what is happening under the hood of a React application.
-
 
 ## Installation
 
@@ -20,7 +18,7 @@ This demystifies what is happening under the hood of a React application.
 2.  Move to project folder
 3.  Run 'npm install' or 'yarn install' to download all dependencies
 4.  Run 'npm start' / 'yarn start'
-5.  Visit localhost:3000
+5.  Visit localhost:3000  
     That's it
 
 ## Build
@@ -31,9 +29,9 @@ npm test
 
 ## Dependencies
 
-Dev-dependencies 1. lodash 2. enzyme 3. enzyme-adapter-react-16 
+Dev-dependencies 1. lodash   2. enzyme   3. enzyme-adapter-react-16   
 
-Regular Dependency: 1. react 2. react-dom
+Regular Dependency: 1. react   2. react-dom  
 
 ## Features planned for the future
 
