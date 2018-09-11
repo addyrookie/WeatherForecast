@@ -42,8 +42,8 @@ Regular Dependency:
 
 ## Features planned for the future
 
-**Navigation option to move to different parts of app  
-** Display detailed weather information for a particular day  
+** Navigation option to move to different parts of app  
+**  Display detailed weather information for a particular day  
 **User can choose to show hide properties such as temperature, wind speed  
 ** Display properties in graphical manner  
 **Find range of property for 5 day period  
