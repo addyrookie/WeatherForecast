@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+	  background-color: teal;
+}
+
+
+
+.heading {
+	padding: 20px;
+}
+
+.weather-data-container {
+  background-color: teal;
+  padding: 5px;
+  margin: 0 ;
+}
+
+.weather-data-container li {
+  list-style: none;
+}
+
+.weather-item-list li{
+	border: 1px solid #FFD700;
+	padding: 0px;
+}
+
+
+@media all and (min-width: 200px) {
+
+	.weather-item-list {
+		display: grid;
+		grid-template-columns: repeat(6, minmax(70px,1fr));
+	}
+}
