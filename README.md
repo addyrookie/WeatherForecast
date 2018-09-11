@@ -29,17 +29,24 @@ npm test
 
 ## Dependencies
 
-Dev-dependencies 1. lodash  
+Dev-dependencies  
+1. lodash  
 2. enzyme  
 3. enzyme-adapter-react-16  
 
 
 
-Regular Dependency: 1. react   2. react-dom  
+Regular Dependency:   
+1. react  
+2. react-dom  
+
 
 ## Features planned for the future
 
-**Navigation option to move to different parts of app ** Display detailed weather information for a particular day
-**User can choose to show hide properties such as temperature, wind speed ** Display properties in graphical manner
-**Find range of property for 5 day period ** Add feature to search weather data for any city
+**Navigation option to move to different parts of app  
+** Display detailed weather information for a particular day  
+**User can choose to show hide properties such as temperature, wind speed  
+** Display properties in graphical manner  
+**Find range of property for 5 day period  
+** Add feature to search weather data for any city  
 **Compare weather for any two cities 
