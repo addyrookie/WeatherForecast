@@ -26,11 +26,6 @@ describe('Testing presence of WeatherForecast component and its elements', () =>
 
 
 describe('Performing action on WeatherForecast', () => {
-	test('weather forecast heading should not be visible on page load', () => {
-		const wrapper =shallow(<WeatherForecast />);
-		expect(wrapper.exists('h1.heading')).toBe(true)
-	})
-
 	test('weather forecast heading should display city name', () => {
 		const wrapper =shallow(<WeatherForecast />); 
 		wrapper.find('input').simulate('change', {target: {name: 'city', value: 'Kanpur' }})
