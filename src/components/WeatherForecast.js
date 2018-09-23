@@ -2,20 +2,24 @@ import React from "react";
 import _ from "lodash";
 import './WeatherForecast.css';
 
-class WeatherForecast extends React.Component {
+export class WeatherForecast extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			weatherData: {},
+			city: ''
 		}
-		this.cityRef = React.createRef();
 	}
 
 	onSubmitCity = (event) =>  {
 		event.preventDefault();
-		fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${this.cityRef.current.value},IN&APPID=1f703b39afd8359290cc27e826b45021`)
+		fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${this.state.city},IN&APPID=1f703b39afd8359290cc27e826b45021`)
 		.then(res => res.json())
 		.then(data => this.setState({ weatherData: data }))
+	}
+
+	onChange = (event) =>  {
+		this.setState({ city: event.target.value});
 	}
 
 	render() {
@@ -23,13 +27,13 @@ class WeatherForecast extends React.Component {
 		return(
 			<div>
 				<form onSubmit={this.onSubmitCity}>
-					<input type="text" ref={this.cityRef} />
+					<input type="text" name="city" value={this.state.city} onChange={this.onChange} />
 					<button type="submit">Submit</button>
 				</form>
-				
-				{this.cityRef.current != null && 
+
+				{this.state.city != null && 
 					<div className="weather-data-container">
-					    <h1 className="heading">5 day weather report for  {this.cityRef.current.value}</h1>
+					    <h1 className="heading">5 day weather report for {this.state.city}</h1>
 						<ul className="weather-item-list" style={{fontWeight: "bold"}}>
 							<li key={"date"}>Date </li>
 							<li key={"temp"}>Temp</li>

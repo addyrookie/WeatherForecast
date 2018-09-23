@@ -1,0 +1,1269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing presence of WeatherForecast component and its elements should contain a text box 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): ShallowWrapper {
+    Symbol(enzyme.__root__): [Circular],
+    Symbol(enzyme.__unrendered__): <WeatherForecast />,
+    Symbol(enzyme.__renderer__): Object {
+      "batchedUpdates": [Function],
+      "getNode": [Function],
+      "render": [Function],
+      "simulateError": [Function],
+      "simulateEvent": [Function],
+      "unmount": [Function],
+    },
+    Symbol(enzyme.__node__): Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            onSubmit={[Function]}
+>
+            <input
+                        name="city"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+            />
+            <button
+                        type="submit"
+            >
+                        Submit
+            </button>
+</form>,
+          <div
+            className="weather-data-container"
+>
+            <h1
+                        className="heading"
+            >
+                        5 day weather report for 
+                        
+            </h1>
+            <ul
+                        className="weather-item-list"
+                        style={
+                                    Object {
+                                                "fontWeight": "bold",
+                                              }
+                        }
+            >
+                        <li>
+                                    Date 
+                        </li>
+                        <li>
+                                    Temp
+                        </li>
+                        <li>
+                                    Pressure
+                        </li>
+                        <li>
+                                    Humidity
+                        </li>
+                        <li>
+                                    Forecast
+                        </li>
+                        <li>
+                                    Wind Speed
+                        </li>
+            </ul>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                name="city"
+                onChange={[Function]}
+                type="text"
+                value=""
+/>,
+              <button
+                type="submit"
+>
+                Submit
+</button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "city",
+                "onChange": [Function],
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Submit",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="heading"
+>
+                5 day weather report for 
+                
+</h1>,
+              <ul
+                className="weather-item-list"
+                style={
+                                Object {
+                                                "fontWeight": "bold",
+                                              }
+                }
+>
+                <li>
+                                Date 
+                </li>
+                <li>
+                                Temp
+                </li>
+                <li>
+                                Pressure
+                </li>
+                <li>
+                                Humidity
+                </li>
+                <li>
+                                Forecast
+                </li>
+                <li>
+                                Wind Speed
+                </li>
+</ul>,
+              undefined,
+            ],
+            "className": "weather-data-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "5 day weather report for ",
+                  "",
+                ],
+                "className": "heading",
+              },
+              "ref": null,
+              "rendered": Array [
+                "5 day weather report for ",
+                "",
+              ],
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    Date 
+</li>,
+                  <li>
+                    Temp
+</li>,
+                  <li>
+                    Pressure
+</li>,
+                  <li>
+                    Humidity
+</li>,
+                  <li>
+                    Forecast
+</li>,
+                  <li>
+                    Wind Speed
+</li>,
+                ],
+                "className": "weather-item-list",
+                "style": Object {
+                  "fontWeight": "bold",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "date",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Date ",
+                  },
+                  "ref": null,
+                  "rendered": "Date ",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "temp",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Temp",
+                  },
+                  "ref": null,
+                  "rendered": "Temp",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "pre",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Pressure",
+                  },
+                  "ref": null,
+                  "rendered": "Pressure",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "hum",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Humidity",
+                  },
+                  "ref": null,
+                  "rendered": "Humidity",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "fore",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Forecast",
+                  },
+                  "ref": null,
+                  "rendered": "Forecast",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "wind",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wind Speed",
+                  },
+                  "ref": null,
+                  "rendered": "Wind Speed",
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            undefined,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    Symbol(enzyme.__nodes__): Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <form
+              onSubmit={[Function]}
+>
+              <input
+                            name="city"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+              />
+              <button
+                            type="submit"
+              >
+                            Submit
+              </button>
+</form>,
+            <div
+              className="weather-data-container"
+>
+              <h1
+                            className="heading"
+              >
+                            5 day weather report for 
+                            
+              </h1>
+              <ul
+                            className="weather-item-list"
+                            style={
+                                          Object {
+                                                        "fontWeight": "bold",
+                                                      }
+                            }
+              >
+                            <li>
+                                          Date 
+                            </li>
+                            <li>
+                                          Temp
+                            </li>
+                            <li>
+                                          Pressure
+                            </li>
+                            <li>
+                                          Humidity
+                            </li>
+                            <li>
+                                          Forecast
+                            </li>
+                            <li>
+                                          Wind Speed
+                            </li>
+              </ul>
+</div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  name="city"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+/>,
+                <button
+                  type="submit"
+>
+                  Submit
+</button>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "city",
+                  "onChange": [Function],
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Submit",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": "button",
+              },
+            ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="heading"
+>
+                  5 day weather report for 
+                  
+</h1>,
+                <ul
+                  className="weather-item-list"
+                  style={
+                                    Object {
+                                                      "fontWeight": "bold",
+                                                    }
+                  }
+>
+                  <li>
+                                    Date 
+                  </li>
+                  <li>
+                                    Temp
+                  </li>
+                  <li>
+                                    Pressure
+                  </li>
+                  <li>
+                                    Humidity
+                  </li>
+                  <li>
+                                    Forecast
+                  </li>
+                  <li>
+                                    Wind Speed
+                  </li>
+</ul>,
+                undefined,
+              ],
+              "className": "weather-data-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "5 day weather report for ",
+                    "",
+                  ],
+                  "className": "heading",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "5 day weather report for ",
+                  "",
+                ],
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li>
+                      Date 
+</li>,
+                    <li>
+                      Temp
+</li>,
+                    <li>
+                      Pressure
+</li>,
+                    <li>
+                      Humidity
+</li>,
+                    <li>
+                      Forecast
+</li>,
+                    <li>
+                      Wind Speed
+</li>,
+                  ],
+                  "className": "weather-item-list",
+                  "style": Object {
+                    "fontWeight": "bold",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "date",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Date ",
+                    },
+                    "ref": null,
+                    "rendered": "Date ",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "temp",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Temp",
+                    },
+                    "ref": null,
+                    "rendered": "Temp",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "pre",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Pressure",
+                    },
+                    "ref": null,
+                    "rendered": "Pressure",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "hum",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Humidity",
+                    },
+                    "ref": null,
+                    "rendered": "Humidity",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "fore",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Forecast",
+                    },
+                    "ref": null,
+                    "rendered": "Forecast",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "wind",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Wind Speed",
+                    },
+                    "ref": null,
+                    "rendered": "Wind Speed",
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    Symbol(enzyme.__options__): Object {
+      "adapter": ReactSixteenAdapter {
+        "options": Object {
+          "enableComponentDidUpdateOnSetState": true,
+          "lifecycles": Object {
+            "componentDidUpdate": Object {
+              "onSetState": true,
+            },
+            "getDerivedStateFromProps": true,
+            "getSnapshotBeforeUpdate": true,
+            "setState": Object {
+              "skipsComponentDidUpdateOnNullish": true,
+            },
+          },
+        },
+      },
+      "attachTo": undefined,
+      "hydrateIn": undefined,
+    },
+  },
+  Symbol(enzyme.__unrendered__): null,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "name": "city",
+      "onChange": [Function],
+      "type": "text",
+      "value": "",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "input",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "name": "city",
+        "onChange": [Function],
+        "type": "text",
+        "value": "",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "input",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Testing presence of WeatherForecast component and its elements should render WeatherForecast component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WeatherForecast />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          onSubmit={[Function]}
+>
+          <input
+                    name="city"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+          />
+          <button
+                    type="submit"
+          >
+                    Submit
+          </button>
+</form>,
+        <div
+          className="weather-data-container"
+>
+          <h1
+                    className="heading"
+          >
+                    5 day weather report for 
+                    
+          </h1>
+          <ul
+                    className="weather-item-list"
+                    style={
+                              Object {
+                                        "fontWeight": "bold",
+                                      }
+                    }
+          >
+                    <li>
+                              Date 
+                    </li>
+                    <li>
+                              Temp
+                    </li>
+                    <li>
+                              Pressure
+                    </li>
+                    <li>
+                              Humidity
+                    </li>
+                    <li>
+                              Forecast
+                    </li>
+                    <li>
+                              Wind Speed
+                    </li>
+          </ul>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              name="city"
+              onChange={[Function]}
+              type="text"
+              value=""
+/>,
+            <button
+              type="submit"
+>
+              Submit
+</button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "city",
+              "onChange": [Function],
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Submit",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Submit",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="heading"
+>
+              5 day weather report for 
+              
+</h1>,
+            <ul
+              className="weather-item-list"
+              style={
+                            Object {
+                                          "fontWeight": "bold",
+                                        }
+              }
+>
+              <li>
+                            Date 
+              </li>
+              <li>
+                            Temp
+              </li>
+              <li>
+                            Pressure
+              </li>
+              <li>
+                            Humidity
+              </li>
+              <li>
+                            Forecast
+              </li>
+              <li>
+                            Wind Speed
+              </li>
+</ul>,
+            undefined,
+          ],
+          "className": "weather-data-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "5 day weather report for ",
+                "",
+              ],
+              "className": "heading",
+            },
+            "ref": null,
+            "rendered": Array [
+              "5 day weather report for ",
+              "",
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li>
+                  Date 
+</li>,
+                <li>
+                  Temp
+</li>,
+                <li>
+                  Pressure
+</li>,
+                <li>
+                  Humidity
+</li>,
+                <li>
+                  Forecast
+</li>,
+                <li>
+                  Wind Speed
+</li>,
+              ],
+              "className": "weather-item-list",
+              "style": Object {
+                "fontWeight": "bold",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "date",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Date ",
+                },
+                "ref": null,
+                "rendered": "Date ",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "temp",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Temp",
+                },
+                "ref": null,
+                "rendered": "Temp",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "pre",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Pressure",
+                },
+                "ref": null,
+                "rendered": "Pressure",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "hum",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Humidity",
+                },
+                "ref": null,
+                "rendered": "Humidity",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "fore",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Forecast",
+                },
+                "ref": null,
+                "rendered": "Forecast",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "wind",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Wind Speed",
+                },
+                "ref": null,
+                "rendered": "Wind Speed",
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          undefined,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            onSubmit={[Function]}
+>
+            <input
+                        name="city"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+            />
+            <button
+                        type="submit"
+            >
+                        Submit
+            </button>
+</form>,
+          <div
+            className="weather-data-container"
+>
+            <h1
+                        className="heading"
+            >
+                        5 day weather report for 
+                        
+            </h1>
+            <ul
+                        className="weather-item-list"
+                        style={
+                                    Object {
+                                                "fontWeight": "bold",
+                                              }
+                        }
+            >
+                        <li>
+                                    Date 
+                        </li>
+                        <li>
+                                    Temp
+                        </li>
+                        <li>
+                                    Pressure
+                        </li>
+                        <li>
+                                    Humidity
+                        </li>
+                        <li>
+                                    Forecast
+                        </li>
+                        <li>
+                                    Wind Speed
+                        </li>
+            </ul>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                name="city"
+                onChange={[Function]}
+                type="text"
+                value=""
+/>,
+              <button
+                type="submit"
+>
+                Submit
+</button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "city",
+                "onChange": [Function],
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Submit",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="heading"
+>
+                5 day weather report for 
+                
+</h1>,
+              <ul
+                className="weather-item-list"
+                style={
+                                Object {
+                                                "fontWeight": "bold",
+                                              }
+                }
+>
+                <li>
+                                Date 
+                </li>
+                <li>
+                                Temp
+                </li>
+                <li>
+                                Pressure
+                </li>
+                <li>
+                                Humidity
+                </li>
+                <li>
+                                Forecast
+                </li>
+                <li>
+                                Wind Speed
+                </li>
+</ul>,
+              undefined,
+            ],
+            "className": "weather-data-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "5 day weather report for ",
+                  "",
+                ],
+                "className": "heading",
+              },
+              "ref": null,
+              "rendered": Array [
+                "5 day weather report for ",
+                "",
+              ],
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    Date 
+</li>,
+                  <li>
+                    Temp
+</li>,
+                  <li>
+                    Pressure
+</li>,
+                  <li>
+                    Humidity
+</li>,
+                  <li>
+                    Forecast
+</li>,
+                  <li>
+                    Wind Speed
+</li>,
+                ],
+                "className": "weather-item-list",
+                "style": Object {
+                  "fontWeight": "bold",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "date",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Date ",
+                  },
+                  "ref": null,
+                  "rendered": "Date ",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "temp",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Temp",
+                  },
+                  "ref": null,
+                  "rendered": "Temp",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "pre",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Pressure",
+                  },
+                  "ref": null,
+                  "rendered": "Pressure",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "hum",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Humidity",
+                  },
+                  "ref": null,
+                  "rendered": "Humidity",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "fore",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Forecast",
+                  },
+                  "ref": null,
+                  "rendered": "Forecast",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "wind",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wind Speed",
+                  },
+                  "ref": null,
+                  "rendered": "Wind Speed",
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            undefined,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
